@@ -603,6 +603,8 @@ class PredictionService:
 
     def build_rudy_today_rows(self, fixtures: list[dict]) -> list[dict]:
         """Подготовить таблицу Rudy для всех сегодняшних матчей."""
+        from datetime import datetime, timedelta
+        
         rows = []
         for fixture in fixtures:
             if not self.is_supported_fixture(fixture):
@@ -621,7 +623,18 @@ class PredictionService:
             teams = fixture.get('teams', {})
             league = fixture.get('league', {})
             status = fixture.get('fixture', {}).get('status', {})
-            match_time = fixture.get('fixture', {}).get('date', '')[:16]
+            
+            # Конвертируем время в Московское (UTC+3)
+            utc_time_str = fixture.get('fixture', {}).get('date', '')[:16]
+            if utc_time_str:
+                try:
+                    utc_time = datetime.fromisoformat(utc_time_str)
+                    msk_time = utc_time + timedelta(hours=3)
+                    match_time = msk_time.strftime("%Y-%m-%d %H:%M")
+                except:
+                    match_time = utc_time_str
+            else:
+                match_time = 'Н/Д'
 
             rows.append({
                 'Время': match_time,
