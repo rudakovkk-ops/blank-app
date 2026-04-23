@@ -1,0 +1,328 @@
+{
+  "policy_floors": {
+    "confidence_floor": 0.58,
+    "margin_floor": 0.1
+  },
+  "rows": [
+    {
+      "model_key": "logistic_regression",
+      "all_signals": {
+        "roi": -99.99998214985253,
+        "trades": 4173,
+        "win_rate": 46.27366403067338,
+        "profit": -999.9998214985253,
+        "max_drawdown": 99.99999070385658
+      },
+      "legacy_policy": {
+        "roi": -99.96133447951892,
+        "trades": 2326,
+        "win_rate": 52.837489251934656,
+        "profit": -999.6133447951893,
+        "max_drawdown": 99.98096467972992,
+        "confidence_threshold": 0.0,
+        "margin_threshold": 0.1
+      },
+      "strict_policy": {
+        "roi": 3.2748245332246824,
+        "trades": 744,
+        "win_rate": 67.8763440860215,
+        "profit": 32.748245332246825,
+        "max_drawdown": 78.20589754176767,
+        "confidence_threshold": 0.58,
+        "margin_threshold": 0.1
+      },
+      "delta_strict_minus_legacy": {
+        "roi": 103.23615901274361,
+        "trades": -1582,
+        "win_rate": 15.038854834086848,
+        "profit": 1032.361590127436
+      },
+      "delta_strict_minus_all": {
+        "roi": 103.27480668307722,
+        "trades": -3429,
+        "win_rate": 21.602680055348124,
+        "profit": 1032.7480668307721
+      }
+    },
+    {
+      "model_key": "neural_network",
+      "all_signals": {
+        "roi": -99.9993397825658,
+        "trades": 4173,
+        "win_rate": 50.22765396597172,
+        "profit": -999.993397825658,
+        "max_drawdown": 99.99971168489846
+      },
+      "legacy_policy": {
+        "roi": -99.99634676325259,
+        "trades": 2770,
+        "win_rate": 54.94584837545127,
+        "profit": -999.9634676325259,
+        "max_drawdown": 99.99857007727078,
+        "confidence_threshold": 0.45,
+        "margin_threshold": 0.0
+      },
+      "strict_policy": {
+        "roi": -97.97535346341505,
+        "trades": 1201,
+        "win_rate": 63.94671107410491,
+        "profit": -979.7535346341505,
+        "max_drawdown": 98.254532838554,
+        "confidence_threshold": 0.58,
+        "margin_threshold": 0.1
+      },
+      "delta_strict_minus_legacy": {
+        "roi": 2.020993299837542,
+        "trades": -1569,
+        "win_rate": 9.000862698653641,
+        "profit": 20.209932998375393
+      },
+      "delta_strict_minus_all": {
+        "roi": 2.023986319150751,
+        "trades": -2972,
+        "win_rate": 13.719057108133192,
+        "profit": 20.23986319150754
+      }
+    },
+    {
+      "model_key": "xgboost",
+      "all_signals": {
+        "roi": -99.99999923330431,
+        "trades": 4173,
+        "win_rate": 49.6764917325665,
+        "profit": -999.999992333043,
+        "max_drawdown": 99.99999961665328
+      },
+      "legacy_policy": {
+        "roi": -99.99980967441083,
+        "trades": 2988,
+        "win_rate": 54.14993306559571,
+        "profit": -999.9980967441084,
+        "max_drawdown": 99.99987693582308,
+        "confidence_threshold": 0.45,
+        "margin_threshold": 0.0
+      },
+      "strict_policy": {
+        "roi": -98.73537379947325,
+        "trades": 1379,
+        "win_rate": 62.43654822335025,
+        "profit": -987.3537379947325,
+        "max_drawdown": 99.07134089603068,
+        "confidence_threshold": 0.58,
+        "margin_threshold": 0.1
+      },
+      "delta_strict_minus_legacy": {
+        "roi": 1.2644358749375755,
+        "trades": -1609,
+        "win_rate": 8.28661515775454,
+        "profit": 12.644358749375897
+      },
+      "delta_strict_minus_all": {
+        "roi": 1.264625433831057,
+        "trades": -2794,
+        "win_rate": 12.760056490783754,
+        "profit": 12.646254338310541
+      }
+    },
+    {
+      "model_key": "random_forest",
+      "all_signals": {
+        "roi": -99.9999982424386,
+        "trades": 4173,
+        "win_rate": 49.86820033549005,
+        "profit": -999.999982424386,
+        "max_drawdown": 99.99999941740663
+      },
+      "legacy_policy": {
+        "roi": -99.9997984330222,
+        "trades": 2952,
+        "win_rate": 54.40379403794038,
+        "profit": -999.9979843302222,
+        "max_drawdown": 99.99990175802836,
+        "confidence_threshold": 0.45,
+        "margin_threshold": 0.0
+      },
+      "strict_policy": {
+        "roi": -99.26979386705602,
+        "trades": 1381,
+        "win_rate": 62.41853729181752,
+        "profit": -992.6979386705602,
+        "max_drawdown": 99.38370390538826,
+        "confidence_threshold": 0.58,
+        "margin_threshold": 0.1
+      },
+      "delta_strict_minus_legacy": {
+        "roi": 0.7300045659661833,
+        "trades": -1571,
+        "win_rate": 8.014743253877143,
+        "profit": 7.300045659661919
+      },
+      "delta_strict_minus_all": {
+        "roi": 0.73020437538257,
+        "trades": -2792,
+        "win_rate": 12.55033695632747,
+        "profit": 7.302043753825728
+      }
+    },
+    {
+      "model_key": "ensemble",
+      "all_signals": {
+        "roi": -99.99999948579391,
+        "trades": 4173,
+        "win_rate": 49.796309609393724,
+        "profit": -999.9999948579391,
+        "max_drawdown": 99.9999997366033
+      },
+      "legacy_policy": {
+        "roi": -99.99400707216792,
+        "trades": 2387,
+        "win_rate": 57.35232509426058,
+        "profit": -999.9400707216793,
+        "max_drawdown": 99.99711303611201,
+        "confidence_threshold": 0.5,
+        "margin_threshold": 0.0
+      },
+      "strict_policy": {
+        "roi": -99.40968897263377,
+        "trades": 1444,
+        "win_rate": 62.119113573407205,
+        "profit": -994.0968897263377,
+        "max_drawdown": 99.50164421787966,
+        "confidence_threshold": 0.58,
+        "margin_threshold": 0.1
+      },
+      "delta_strict_minus_legacy": {
+        "roi": 0.5843180995341442,
+        "trades": -943,
+        "win_rate": 4.766788479146626,
+        "profit": 5.843180995341527
+      },
+      "delta_strict_minus_all": {
+        "roi": 0.5903105131601336,
+        "trades": -2729,
+        "win_rate": 12.322803964013481,
+        "profit": 5.9031051316013645
+      }
+    },
+    {
+      "model_key": "lightgbm",
+      "all_signals": {
+        "roi": -99.99999251999509,
+        "trades": 4173,
+        "win_rate": 49.86820033549005,
+        "profit": -999.9999251999509,
+        "max_drawdown": 99.99999713742108
+      },
+      "legacy_policy": {
+        "roi": -99.99927549992816,
+        "trades": 2906,
+        "win_rate": 54.54232622161046,
+        "profit": -999.9927549992816,
+        "max_drawdown": 99.99953023928231,
+        "confidence_threshold": 0.45,
+        "margin_threshold": 0.0
+      },
+      "strict_policy": {
+        "roi": -99.4499100374095,
+        "trades": 1321,
+        "win_rate": 61.99848599545798,
+        "profit": -994.499100374095,
+        "max_drawdown": 99.55578946822932,
+        "confidence_threshold": 0.58,
+        "margin_threshold": 0.1
+      },
+      "delta_strict_minus_legacy": {
+        "roi": 0.549365462518665,
+        "trades": -1585,
+        "win_rate": 7.456159773847524,
+        "profit": 5.49365462518665
+      },
+      "delta_strict_minus_all": {
+        "roi": 0.5500824825855943,
+        "trades": -2852,
+        "win_rate": 12.130285659967932,
+        "profit": 5.500824825855943
+      }
+    },
+    {
+      "model_key": "bayesian",
+      "all_signals": {
+        "roi": -99.99999994752507,
+        "trades": 4173,
+        "win_rate": 47.903187155523604,
+        "profit": -999.9999994752507,
+        "max_drawdown": 99.99999995928772
+      },
+      "legacy_policy": {
+        "roi": -99.79520283558064,
+        "trades": 2664,
+        "win_rate": 53.97897897897897,
+        "profit": -997.9520283558064,
+        "max_drawdown": 99.9242363535463,
+        "confidence_threshold": 0.0,
+        "margin_threshold": 0.193
+      },
+      "strict_policy": {
+        "roi": -99.79983715341312,
+        "trades": 1561,
+        "win_rate": 56.56630365150544,
+        "profit": -997.9983715341311,
+        "max_drawdown": 99.94068948335841,
+        "confidence_threshold": 0.58,
+        "margin_threshold": 0.193
+      },
+      "delta_strict_minus_legacy": {
+        "roi": -0.004634317832483248,
+        "trades": -1103,
+        "win_rate": 2.5873246725264707,
+        "profit": -0.04634317832471879
+      },
+      "delta_strict_minus_all": {
+        "roi": 0.2001627941119466,
+        "trades": -2612,
+        "win_rate": 8.66311649598184,
+        "profit": 2.001627941119523
+      }
+    },
+    {
+      "model_key": "poisson",
+      "all_signals": {
+        "roi": -99.99999984044527,
+        "trades": 4173,
+        "win_rate": 49.84423676012461,
+        "profit": -999.9999984044528,
+        "max_drawdown": 99.99999992790175
+      },
+      "legacy_policy": {
+        "roi": -99.99984876049382,
+        "trades": 2911,
+        "win_rate": 55.20439711439368,
+        "profit": -999.9984876049383,
+        "max_drawdown": 99.99993045457913,
+        "confidence_threshold": 0.45,
+        "margin_threshold": 0.0
+      },
+      "strict_policy": {
+        "roi": -99.92166210436864,
+        "trades": 1434,
+        "win_rate": 62.482566248256624,
+        "profit": -999.2166210436864,
+        "max_drawdown": 99.93721109921039,
+        "confidence_threshold": 0.58,
+        "margin_threshold": 0.1
+      },
+      "delta_strict_minus_legacy": {
+        "roi": 0.07818665612518316,
+        "trades": -1477,
+        "win_rate": 7.278169133862946,
+        "profit": 0.7818665612519453
+      },
+      "delta_strict_minus_all": {
+        "roi": 0.07833773607663375,
+        "trades": -2739,
+        "win_rate": 12.638329488132015,
+        "profit": 0.7833773607663943
+      }
+    }
+  ]
+}

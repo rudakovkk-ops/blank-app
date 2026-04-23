@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-04-22T20:10:41.415495",
+  "league_id": 39,
+  "target_year": 2026,
+  "seasons_scanned": [
+    2025,
+    2026
+  ],
+  "status": "running",
+  "fixtures_fetched_from_api_raw": 380,
+  "fixtures_target_year": 194,
+  "fixtures_saved_base": 160,
+  "odds_attempts": 160,
+  "odds_saved_1x2": 27,
+  "odds_missing_after_call": 133,
+  "api_empty_odds_response": 133,
+  "api_errors": {},
+  "progress_pct": 82.47,
+  "last_fixture_id": 1379316
+}

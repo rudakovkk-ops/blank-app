@@ -1,0 +1,244 @@
+{
+  "primary_model_key_runtime": "hybrid_lr_ensemble",
+  "mode": "offline_cached_fixtures",
+  "policy_floors": {
+    "confidence_floor": 0.58,
+    "margin_floor": 0.1
+  },
+  "today": {
+    "segment": "today",
+    "fixtures_total_input": 380,
+    "fixtures_processed": 167,
+    "models": [
+      {
+        "model_key": "logistic_regression",
+        "legacy": {
+          "confidence_threshold": 0.0,
+          "margin_threshold": 0.1,
+          "coverage": 0.5568862275449101,
+          "abstain_rate": 0.44311377245508987,
+          "signals": 93,
+          "total_rows": 167,
+          "resolved_rows": 50,
+          "resolved_signals": 26,
+          "mean_confidence_signals": 0.550643489530065,
+          "selective_accuracy_resolved": 0.6923076923076923,
+          "selective_f1_resolved": 0.621301775147929,
+          "selective_roc_auc_resolved": 0.70954535660418
+        },
+        "strict": {
+          "confidence_threshold": 0.58,
+          "margin_threshold": 0.1,
+          "coverage": 0.16766467065868262,
+          "abstain_rate": 0.8323353293413174,
+          "signals": 28,
+          "total_rows": 167,
+          "resolved_rows": 50,
+          "resolved_signals": 6,
+          "mean_confidence_signals": 0.6941000895079925,
+          "selective_accuracy_resolved": 0.6666666666666666,
+          "selective_f1_resolved": 0.6,
+          "selective_roc_auc_resolved": 0.725
+        },
+        "delta_strict_minus_legacy": {
+          "coverage": -0.3892215568862275,
+          "abstain_rate": 0.3892215568862275,
+          "selective_accuracy_resolved": -0.02564102564102566,
+          "selective_f1_resolved": -0.02130177514792897
+        }
+      },
+      {
+        "model_key": "ensemble",
+        "legacy": {
+          "confidence_threshold": 0.5,
+          "margin_threshold": 0.0,
+          "coverage": 0.5508982035928144,
+          "abstain_rate": 0.4491017964071856,
+          "signals": 92,
+          "total_rows": 167,
+          "resolved_rows": 50,
+          "resolved_signals": 26,
+          "mean_confidence_signals": 0.6138573564125989,
+          "selective_accuracy_resolved": 0.6538461538461539,
+          "selective_f1_resolved": 0.590497737556561,
+          "selective_roc_auc_resolved": 0.7553367684946631
+        },
+        "strict": {
+          "confidence_threshold": 0.58,
+          "margin_threshold": 0.1,
+          "coverage": 0.3413173652694611,
+          "abstain_rate": 0.6586826347305389,
+          "signals": 57,
+          "total_rows": 167,
+          "resolved_rows": 50,
+          "resolved_signals": 18,
+          "mean_confidence_signals": 0.6602544855220143,
+          "selective_accuracy_resolved": 0.7777777777777778,
+          "selective_f1_resolved": 0.7407407407407407,
+          "selective_roc_auc_resolved": 0.5434640522875818
+        },
+        "delta_strict_minus_legacy": {
+          "coverage": -0.20958083832335328,
+          "abstain_rate": 0.20958083832335328,
+          "selective_accuracy_resolved": 0.12393162393162394,
+          "selective_f1_resolved": 0.1502430031841797
+        }
+      },
+      {
+        "model_key": "hybrid_lr_ensemble",
+        "legacy": {
+          "confidence_threshold": 0.5,
+          "margin_threshold": 0.1,
+          "coverage": 0.40718562874251496,
+          "abstain_rate": 0.592814371257485,
+          "signals": 68,
+          "total_rows": 167,
+          "resolved_rows": 50,
+          "resolved_signals": 23,
+          "mean_confidence_signals": 0.6021010255002024,
+          "selective_accuracy_resolved": 0.6956521739130435,
+          "selective_f1_resolved": 0.6335403726708074,
+          "selective_roc_auc_resolved": 0.6941311078207026
+        },
+        "strict": {
+          "confidence_threshold": 0.58,
+          "margin_threshold": 0.1,
+          "coverage": 0.19161676646706588,
+          "abstain_rate": 0.8083832335329342,
+          "signals": 32,
+          "total_rows": 167,
+          "resolved_rows": 50,
+          "resolved_signals": 8,
+          "mean_confidence_signals": 0.6771368209656258,
+          "selective_accuracy_resolved": 0.75,
+          "selective_f1_resolved": 0.6931818181818181,
+          "selective_roc_auc_resolved": 0.5773809523809524
+        },
+        "delta_strict_minus_legacy": {
+          "coverage": -0.21556886227544908,
+          "abstain_rate": 0.21556886227544914,
+          "selective_accuracy_resolved": 0.05434782608695654,
+          "selective_f1_resolved": 0.05964144551101069
+        }
+      }
+    ]
+  },
+  "live": {
+    "segment": "live",
+    "fixtures_total_input": 59,
+    "fixtures_processed": 59,
+    "models": [
+      {
+        "model_key": "logistic_regression",
+        "legacy": {
+          "confidence_threshold": 0.0,
+          "margin_threshold": 0.1,
+          "coverage": 0.5084745762711864,
+          "abstain_rate": 0.4915254237288136,
+          "signals": 30,
+          "total_rows": 59,
+          "resolved_rows": 0,
+          "resolved_signals": 0,
+          "mean_confidence_signals": 0.5192735614006591,
+          "selective_accuracy_resolved": null,
+          "selective_f1_resolved": null,
+          "selective_roc_auc_resolved": null
+        },
+        "strict": {
+          "confidence_threshold": 0.58,
+          "margin_threshold": 0.1,
+          "coverage": 0.11864406779661017,
+          "abstain_rate": 0.8813559322033898,
+          "signals": 7,
+          "total_rows": 59,
+          "resolved_rows": 0,
+          "resolved_signals": 0,
+          "mean_confidence_signals": 0.6829450329516652,
+          "selective_accuracy_resolved": null,
+          "selective_f1_resolved": null,
+          "selective_roc_auc_resolved": null
+        },
+        "delta_strict_minus_legacy": {
+          "coverage": -0.38983050847457623,
+          "abstain_rate": 0.38983050847457623,
+          "selective_accuracy_resolved": null,
+          "selective_f1_resolved": null
+        }
+      },
+      {
+        "model_key": "ensemble",
+        "legacy": {
+          "confidence_threshold": 0.5,
+          "margin_threshold": 0.0,
+          "coverage": 0.4745762711864407,
+          "abstain_rate": 0.5254237288135593,
+          "signals": 28,
+          "total_rows": 59,
+          "resolved_rows": 0,
+          "resolved_signals": 0,
+          "mean_confidence_signals": 0.6059221414144575,
+          "selective_accuracy_resolved": null,
+          "selective_f1_resolved": null,
+          "selective_roc_auc_resolved": null
+        },
+        "strict": {
+          "confidence_threshold": 0.58,
+          "margin_threshold": 0.1,
+          "coverage": 0.2542372881355932,
+          "abstain_rate": 0.7457627118644068,
+          "signals": 15,
+          "total_rows": 59,
+          "resolved_rows": 0,
+          "resolved_signals": 0,
+          "mean_confidence_signals": 0.6606364512152368,
+          "selective_accuracy_resolved": null,
+          "selective_f1_resolved": null,
+          "selective_roc_auc_resolved": null
+        },
+        "delta_strict_minus_legacy": {
+          "coverage": -0.22033898305084748,
+          "abstain_rate": 0.22033898305084754,
+          "selective_accuracy_resolved": null,
+          "selective_f1_resolved": null
+        }
+      },
+      {
+        "model_key": "hybrid_lr_ensemble",
+        "legacy": {
+          "confidence_threshold": 0.5,
+          "margin_threshold": 0.1,
+          "coverage": 0.288135593220339,
+          "abstain_rate": 0.711864406779661,
+          "signals": 17,
+          "total_rows": 59,
+          "resolved_rows": 0,
+          "resolved_signals": 0,
+          "mean_confidence_signals": 0.5941752631682486,
+          "selective_accuracy_resolved": null,
+          "selective_f1_resolved": null,
+          "selective_roc_auc_resolved": null
+        },
+        "strict": {
+          "confidence_threshold": 0.58,
+          "margin_threshold": 0.1,
+          "coverage": 0.13559322033898305,
+          "abstain_rate": 0.864406779661017,
+          "signals": 8,
+          "total_rows": 59,
+          "resolved_rows": 0,
+          "resolved_signals": 0,
+          "mean_confidence_signals": 0.6659822161696152,
+          "selective_accuracy_resolved": null,
+          "selective_f1_resolved": null,
+          "selective_roc_auc_resolved": null
+        },
+        "delta_strict_minus_legacy": {
+          "coverage": -0.15254237288135594,
+          "abstain_rate": 0.15254237288135597,
+          "selective_accuracy_resolved": null,
+          "selective_f1_resolved": null
+        }
+      }
+    ]
+  }
+}

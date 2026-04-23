@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-04-22T20:21:21.840000",
+  "league_id": 39,
+  "season": 2024,
+  "league_name": "England Premier League",
+  "status": "running",
+  "fixtures_fetched_from_api": 380,
+  "fixtures_saved_base": 30,
+  "odds_attempts": 30,
+  "odds_saved_1x2": 0,
+  "odds_missing_after_call": 30,
+  "api_empty_odds_response": 30,
+  "api_errors": {},
+  "progress_pct": 7.89,
+  "last_fixture_id": 1208047
+}

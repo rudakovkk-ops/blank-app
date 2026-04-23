@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-04-22T18:59:33.144723",
+  "feature_quality_pruning": {
+    "dropped_leakage_like": [],
+    "dropped_sparse": [
+      "away_odds",
+      "draw_odds",
+      "home_odds",
+      "over_2_5_odds",
+      "under_2_5_odds"
+    ],
+    "dropped_seasonally_unstable": [
+      "h2h_matches_played",
+      "is_current_season",
+      "season_offset",
+      "season_year"
+    ],
+    "dropped_seasonal_missing_unstable": [],
+    "dropped_low_variance": [
+      "implied_away_probability",
+      "implied_draw_probability",
+      "implied_home_probability",
+      "implied_over_2_5_probability",
+      "implied_under_2_5_probability",
+      "log_away_odds",
+      "log_draw_odds",
+      "log_home_odds",
+      "log_over_2_5_odds",
+      "log_under_2_5_odds",
+      "market_draw_edge",
+      "market_entropy",
+      "market_favorite_probability",
+      "market_home_edge",
+      "market_overround",
+      "market_probability_gap",
+      "normalized_away_probability",
+      "normalized_draw_probability",
+      "normalized_home_probability",
+      "totals_2_5_odds_gap",
+      "totals_2_5_overround"
+    ]
+  },
+  "reliability_slice_report": {
+    "reliable_rows": 2,
+    "detail_poor_rows": 1852,
+    "models": {
+      "logistic_regression": {
+        "detail_poor_slice": {
+          "accuracy": 0.46706263498920086,
+          "f1": 0.38508242999323167,
+          "roc_auc": 0.6183897559480668,
+          "rows": 1852
+        }
+      },
+      "random_forest": {
+        "detail_poor_slice": {
+          "accuracy": 0.47516198704103674,
+          "f1": 0.39449790962627207,
+          "roc_auc": 0.6254242545479504,
+          "rows": 1852
+        }
+      },
+      "lightgbm": {
+        "detail_poor_slice": {
+          "accuracy": 0.4811015118790497,
+          "f1": 0.39793647128008003,
+          "roc_auc": 0.6257456018794365,
+          "rows": 1852
+        }
+      },
+      "xgboost": {
+        "detail_poor_slice": {
+          "accuracy": 0.47300215982721383,
+          "f1": 0.3918892405065025,
+          "roc_auc": 0.6224728427598355,
+          "rows": 1852
+        }
+      },
+      "neural_network": {
+        "detail_poor_slice": {
+          "accuracy": 0.4535637149028078,
+          "f1": 0.3697021447586518,
+          "roc_auc": 0.5918194495525139,
+          "rows": 1852
+        }
+      },
+      "poisson": {
+        "detail_poor_slice": {
+          "accuracy": 0.46436285097192226,
+          "f1": 0.3819231718696997,
+          "roc_auc": 0.6222718577719633,
+          "rows": 1852
+        }
+      },
+      "ensemble": {
+        "detail_poor_slice": {
+          "accuracy": 0.47300215982721383,
+          "f1": 0.3914199826364612,
+          "roc_auc": 0.6281052090437147,
+          "rows": 1852
+        }
+      },
+      "bayesian": {
+        "detail_poor_slice": {
+          "accuracy": 0.4562634989200864,
+          "f1": 0.38091589985443464,
+          "roc_auc": 0.6041875162160764,
+          "rows": 1852
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-04-22T16:20:00.125678",
+  "total_finished_fixtures": 27816,
+  "with_full_odds_before": 44,
+  "with_full_odds_after": 157,
+  "coverage_before": 0.0015818234109864827,
+  "coverage_after": 0.0056442335346563125,
+  "coverage_delta": 0.00406241012366983,
+  "attempted_fixtures": 120,
+  "successfully_enriched": 113,
+  "unchanged_after_enrichment": 7,
+  "api_errors": {}
+}

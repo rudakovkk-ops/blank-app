@@ -1,0 +1,25 @@
+[theme]
+primaryColor = "#1f77b4"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"
+
+[client]
+showErrorDetails = true
+toolbarMode = "viewer"
+
+[browser]
+gatherUsageStats = false
+serverAddress = "localhost"
+
+[server]
+port = 8502
+headless = true
+runOnSave = true
+baseUrlPath = ""
+enableXsrfProtection = false
+
+[logger]
+level = "info"
+messageFormat = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"

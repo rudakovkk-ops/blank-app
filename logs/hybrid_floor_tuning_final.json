@@ -1,0 +1,23 @@
+{
+  "base_floor": 0.58,
+  "new_floor": 0.577,
+  "base": {
+    "coverage": 0.19161676646706588,
+    "signals": 32,
+    "resolved_signals": 8,
+    "acc": 0.75,
+    "f1": 0.6931818181818181
+  },
+  "new": {
+    "coverage": 0.19760479041916168,
+    "signals": 33,
+    "resolved_signals": 8,
+    "acc": 0.75,
+    "f1": 0.6931818181818181
+  },
+  "delta_new_minus_base": {
+    "coverage": 0.0059880239520958,
+    "acc": 0.0,
+    "f1": 0.0
+  }
+}

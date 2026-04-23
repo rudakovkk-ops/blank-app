@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-04-22T20:17:51.960187",
+  "status": "running",
+  "year": 2026,
+  "fixtures_2026_total": 6896,
+  "target_pending": 6894,
+  "attempts": 2018,
+  "success": 229,
+  "unchanged": 1789,
+  "errors": {},
+  "progress_pct": 29.27,
+  "remaining": 4876,
+  "last_fixture_id": 1495730
+}

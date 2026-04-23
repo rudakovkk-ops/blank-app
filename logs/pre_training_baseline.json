@@ -1,0 +1,184 @@
+{
+  "bundle_summary": {
+    "captured_at": "2026-04-22T14:01:44.390676Z",
+    "latest_bundle_timestamp": "20260421_165114",
+    "bundles_count": 23,
+    "models": {
+      "bayesian": {
+        "file": "models/bayesian_20260421_165114.pkl",
+        "accuracy": 0.5067796610169492,
+        "roc_auc": 0.6560408097431794,
+        "f1": 0.42694357123251137,
+        "brier_score": 0.6135038640594915,
+        "policy_enabled": true,
+        "policy_coverage": 0.5889830508474576,
+        "policy_selective_accuracy": 0.5755395683453237,
+        "optuna_tuned": true
+      },
+      "lightgbm": {
+        "file": "models/lightgbm_20260421_165114.pkl",
+        "accuracy": 0.5203389830508475,
+        "roc_auc": 0.6668452214115985,
+        "f1": 0.4364151399884407,
+        "brier_score": 0.5953966650526648,
+        "policy_enabled": true,
+        "policy_coverage": 0.6983050847457627,
+        "policy_selective_accuracy": 0.5946601941747572,
+        "optuna_tuned": true
+      },
+      "logistic_regression": {
+        "file": "models/logistic_regression_20260421_165114.pkl",
+        "accuracy": 0.4822033898305085,
+        "roc_auc": 0.6620646753580318,
+        "f1": 0.47069619777804317,
+        "brier_score": 0.6091481781631891,
+        "policy_enabled": true,
+        "policy_coverage": 0.5644067796610169,
+        "policy_selective_accuracy": 0.5795795795795796,
+        "optuna_tuned": true
+      },
+      "neural_network": {
+        "file": "models/neural_network_20260421_165114.pkl",
+        "accuracy": 0.5135593220338983,
+        "roc_auc": 0.6710399579882228,
+        "f1": 0.43088608097079684,
+        "brier_score": 0.5940245278123399,
+        "policy_enabled": true,
+        "policy_coverage": 0.6406779661016949,
+        "policy_selective_accuracy": 0.6018518518518519,
+        "optuna_tuned": true
+      },
+      "poisson": {
+        "file": "models/poisson_20260421_165114.pkl",
+        "accuracy": 0.5186440677966102,
+        "roc_auc": 0.6721194670138282,
+        "f1": 0.4358693250285927,
+        "brier_score": 0.5929775254808015,
+        "policy_enabled": true,
+        "policy_coverage": 0.6745762711864407,
+        "policy_selective_accuracy": 0.5992462311557789,
+        "optuna_tuned": false
+      },
+      "random_forest": {
+        "file": "models/random_forest_20260421_165114.pkl",
+        "accuracy": 0.5194915254237288,
+        "roc_auc": 0.6662978726877974,
+        "f1": 0.4357352273206482,
+        "brier_score": 0.5952689907161378,
+        "policy_enabled": true,
+        "policy_coverage": 0.6966101694915254,
+        "policy_selective_accuracy": 0.5936739659367397,
+        "optuna_tuned": true
+      },
+      "xgboost": {
+        "file": "models/xgboost_20260421_165114.pkl",
+        "accuracy": 0.5194915254237288,
+        "roc_auc": 0.6660698134855211,
+        "f1": 0.43576988236336567,
+        "brier_score": 0.5959297288681765,
+        "policy_enabled": true,
+        "policy_coverage": 0.711864406779661,
+        "policy_selective_accuracy": 0.5821428571428572,
+        "optuna_tuned": true
+      }
+    }
+  },
+  "roi_and_signal_quality": [
+    {
+      "model_key": "logistic_regression",
+      "roi_policy": -99.97177558770672,
+      "bets_policy": 2448,
+      "win_rate_policy": 52.94117647058824,
+      "roi_all": -99.99989307228434,
+      "bets_all": 4173,
+      "win_rate_all": 47.01653486700216,
+      "acc_policy": 0.5294117647058824,
+      "acc_all": 0.4701653486700216,
+      "policy_enabled": true
+    },
+    {
+      "model_key": "random_forest",
+      "roi_policy": -99.99975488174798,
+      "bets_policy": 2951,
+      "win_rate_policy": 54.42222975262623,
+      "roi_all": -99.99999766844306,
+      "bets_all": 4173,
+      "win_rate_all": 49.892163910855494,
+      "acc_policy": 0.5442222975262623,
+      "acc_all": 0.49892163910855497,
+      "policy_enabled": true
+    },
+    {
+      "model_key": "lightgbm",
+      "roi_policy": -99.99907328679757,
+      "bets_policy": 2905,
+      "win_rate_policy": 54.56110154905336,
+      "roi_all": -99.99998783135753,
+      "bets_all": 4173,
+      "win_rate_all": 49.916127486220944,
+      "acc_policy": 0.5456110154905336,
+      "acc_all": 0.49916127486220946,
+      "policy_enabled": true
+    },
+    {
+      "model_key": "xgboost",
+      "roi_policy": -99.99972572031322,
+      "bets_policy": 2993,
+      "win_rate_policy": 54.15970598062145,
+      "roi_all": -99.99999898482125,
+      "bets_all": 4173,
+      "win_rate_all": 49.6764917325665,
+      "acc_policy": 0.5415970598062145,
+      "acc_all": 0.49676491732566497,
+      "policy_enabled": true
+    },
+    {
+      "model_key": "neural_network",
+      "roi_policy": -99.9949637082978,
+      "bets_policy": 2713,
+      "win_rate_policy": 54.920751935127164,
+      "roi_all": -99.99761415089738,
+      "bets_all": 4173,
+      "win_rate_all": 50.22765396597172,
+      "acc_policy": 0.5492075193512717,
+      "acc_all": 0.5022765396597172,
+      "policy_enabled": true
+    },
+    {
+      "model_key": "poisson",
+      "roi_policy": -99.9992046296872,
+      "bets_policy": 2822,
+      "win_rate_policy": 55.27994330262226,
+      "roi_all": -99.99999157519059,
+      "bets_all": 4173,
+      "win_rate_all": 50.059908938413614,
+      "acc_policy": 0.5527994330262226,
+      "acc_all": 0.5005990893841361,
+      "policy_enabled": true
+    },
+    {
+      "model_key": "ensemble",
+      "roi_policy": -99.99067275296287,
+      "bets_policy": 2368,
+      "win_rate_policy": 57.432432432432435,
+      "roi_all": -99.99999811756106,
+      "bets_all": 4173,
+      "win_rate_all": 49.940091061586386,
+      "acc_policy": 0.5743243243243243,
+      "acc_all": 0.4994009106158639,
+      "policy_enabled": true
+    },
+    {
+      "model_key": "bayesian",
+      "roi_policy": -99.81136202103696,
+      "bets_policy": 2684,
+      "win_rate_policy": 53.94932935916542,
+      "roi_all": -99.99999994813822,
+      "bets_all": 4173,
+      "win_rate_all": 47.92715073088905,
+      "acc_policy": 0.5394932935916542,
+      "acc_all": 0.4792715073088905,
+      "policy_enabled": true
+    }
+  ]
+}

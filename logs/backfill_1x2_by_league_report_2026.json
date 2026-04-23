@@ -1,0 +1,204 @@
+{
+  "created_at": "2026-04-22T19:57:07.245028",
+  "policy": "1X2 only",
+  "year": 2026,
+  "max_checks_per_league": 5,
+  "league_rows": [
+    {
+      "league_id": 116,
+      "league_name": "Premier League",
+      "fixtures_2026_total": 240,
+      "missing_before": 228,
+      "checked": 5,
+      "api_empty": 5,
+      "no_1x2_after_call": 5,
+      "with_1x2_after": 12,
+      "with_1x2_rate_after": 5.0
+    },
+    {
+      "league_id": 103,
+      "league_name": "Eliteserien",
+      "fixtures_2026_total": 240,
+      "missing_before": 230,
+      "checked": 5,
+      "api_empty": 5,
+      "no_1x2_after_call": 5,
+      "with_1x2_after": 10,
+      "with_1x2_rate_after": 4.17
+    },
+    {
+      "league_id": 104,
+      "league_name": "1. Division",
+      "fixtures_2026_total": 240,
+      "missing_before": 232,
+      "checked": 5,
+      "api_empty": 5,
+      "no_1x2_after_call": 5,
+      "with_1x2_after": 8,
+      "with_1x2_rate_after": 3.33
+    },
+    {
+      "league_id": 113,
+      "league_name": "Allsvenskan",
+      "fixtures_2026_total": 240,
+      "missing_before": 232,
+      "checked": 5,
+      "api_empty": 5,
+      "no_1x2_after_call": 5,
+      "with_1x2_after": 8,
+      "with_1x2_rate_after": 3.33
+    },
+    {
+      "league_id": 114,
+      "league_name": "Superettan",
+      "fixtures_2026_total": 240,
+      "missing_before": 231,
+      "checked": 5,
+      "api_empty": 5,
+      "no_1x2_after_call": 5,
+      "with_1x2_after": 9,
+      "with_1x2_rate_after": 3.75
+    },
+    {
+      "league_id": 329,
+      "league_name": "Meistriliiga",
+      "fixtures_2026_total": 180,
+      "missing_before": 174,
+      "checked": 5,
+      "api_empty": 5,
+      "no_1x2_after_call": 5,
+      "with_1x2_after": 6,
+      "with_1x2_rate_after": 3.33
+    },
+    {
+      "league_id": 328,
+      "league_name": "Esiliiga A",
+      "fixtures_2026_total": 180,
+      "missing_before": 175,
+      "checked": 5,
+      "api_empty": 5,
+      "no_1x2_after_call": 5,
+      "with_1x2_after": 5,
+      "with_1x2_rate_after": 2.78
+    },
+    {
+      "league_id": 327,
+      "league_name": "Erovnuli Liga",
+      "fixtures_2026_total": 180,
+      "missing_before": 173,
+      "checked": 5,
+      "api_empty": 5,
+      "no_1x2_after_call": 5,
+      "with_1x2_after": 7,
+      "with_1x2_rate_after": 3.89
+    },
+    {
+      "league_id": 326,
+      "league_name": "Erovnuli Liga 2",
+      "fixtures_2026_total": 180,
+      "missing_before": 176,
+      "checked": 5,
+      "api_empty": 5,
+      "no_1x2_after_call": 5,
+      "with_1x2_after": 4,
+      "with_1x2_rate_after": 2.22
+    },
+    {
+      "league_id": 357,
+      "league_name": "Premier Division",
+      "fixtures_2026_total": 180,
+      "missing_before": 175,
+      "checked": 5,
+      "api_empty": 5,
+      "no_1x2_after_call": 5,
+      "with_1x2_after": 5,
+      "with_1x2_rate_after": 2.78
+    },
+    {
+      "league_id": 358,
+      "league_name": "First Division",
+      "fixtures_2026_total": 180,
+      "missing_before": 175,
+      "checked": 5,
+      "api_empty": 5,
+      "no_1x2_after_call": 5,
+      "with_1x2_after": 5,
+      "with_1x2_rate_after": 2.78
+    },
+    {
+      "league_id": 365,
+      "league_name": "Virsliga",
+      "fixtures_2026_total": 180,
+      "missing_before": 172,
+      "checked": 5,
+      "api_empty": 5,
+      "no_1x2_after_call": 5,
+      "with_1x2_after": 8,
+      "with_1x2_rate_after": 4.44
+    },
+    {
+      "league_id": 1087,
+      "league_name": "Ykkösliiga",
+      "fixtures_2026_total": 135,
+      "missing_before": 131,
+      "checked": 5,
+      "api_empty": 5,
+      "no_1x2_after_call": 5,
+      "with_1x2_after": 4,
+      "with_1x2_rate_after": 2.96
+    },
+    {
+      "league_id": 244,
+      "league_name": "Veikkausliiga",
+      "fixtures_2026_total": 132,
+      "missing_before": 126,
+      "checked": 5,
+      "api_empty": 5,
+      "no_1x2_after_call": 5,
+      "with_1x2_after": 6,
+      "with_1x2_rate_after": 4.55
+    },
+    {
+      "league_id": 164,
+      "league_name": "Úrvalsdeild",
+      "fixtures_2026_total": 132,
+      "missing_before": 126,
+      "checked": 5,
+      "api_empty": 5,
+      "no_1x2_after_call": 5,
+      "with_1x2_after": 6,
+      "with_1x2_rate_after": 4.55
+    },
+    {
+      "league_id": 361,
+      "league_name": "1 Lyga",
+      "fixtures_2026_total": 120,
+      "missing_before": 116,
+      "checked": 5,
+      "api_empty": 5,
+      "no_1x2_after_call": 5,
+      "with_1x2_after": 4,
+      "with_1x2_rate_after": 3.33
+    },
+    {
+      "league_id": 362,
+      "league_name": "A Lyga",
+      "fixtures_2026_total": 90,
+      "missing_before": 85,
+      "checked": 5,
+      "api_empty": 5,
+      "no_1x2_after_call": 5,
+      "with_1x2_after": 5,
+      "with_1x2_rate_after": 5.56
+    }
+  ],
+  "totals": {
+    "league_id": 5158,
+    "fixtures_2026_total": 3069,
+    "missing_before": 2957,
+    "checked": 85,
+    "api_empty": 85,
+    "no_1x2_after_call": 85,
+    "with_1x2_after": 112
+  }
+}
